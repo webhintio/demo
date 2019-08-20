@@ -1,0 +1,7 @@
+{
+    "extends": ["development"],
+    "hints": {
+        "compat-api/css": "warning",
+        "compat-api/html": "warning"
+    }
+}

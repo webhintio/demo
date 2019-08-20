@@ -2,6 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 class Utils {
     static uuid() {
+        /*jshint bitwise:false */
         var i, random;
         var uuid = '';
         for (i = 0; i < 32; i++) {

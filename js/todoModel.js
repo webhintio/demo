@@ -1,6 +1,16 @@
 "use strict";
+/*jshint quotmark:false */
+/*jshint white:false */
+/*jshint trailing:false */
+/*jshint newcap:false */
 Object.defineProperty(exports, "__esModule", { value: true });
+/// <reference path="./interfaces.d.ts"/>
 const utils_1 = require("./utils");
+// Generic "model" object. You can use whatever
+// framework you want. For this application it
+// may not even be worth separating this logic
+// out, but we do this to demonstrate one way to
+// separate out parts of your application.
 class TodoModel {
     constructor(key) {
         this.key = key;
@@ -23,6 +33,10 @@ class TodoModel {
         this.inform();
     }
     toggleAll(checked) {
+        // Note: It's usually better to use immutable data structures since they're
+        // easier to reason about and React works very well with them. That's why
+        // we use map(), filter() and reduce() everywhere instead of mutating the
+        // array or todo items themselves.
         this.todos = this.todos.map((todo) => {
             return utils_1.Utils.extend({}, todo, { completed: checked });
         });

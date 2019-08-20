@@ -1,5 +1,11 @@
 "use strict";
+/*jshint quotmark:false */
+/*jshint white:false */
+/*jshint trailing:false */
+/*jshint newcap:false */
+/*global React */
 Object.defineProperty(exports, "__esModule", { value: true });
+/// <reference path="./interfaces.d.ts"/>
 const classNames = require("classnames");
 const React = require("react");
 const constants_1 = require("./constants");

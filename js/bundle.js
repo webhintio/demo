@@ -157,7 +157,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "../node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, "@charset \"UTF-8\";\nhr {\n  margin: 20px 0;\n  border: 0;\n  border-top: 1px dashed #c5c5c5;\n  border-bottom: 1px dashed #f7f7f7; }\n\n.learn a {\n  font-weight: normal;\n  text-decoration: none;\n  color: #b83f45; }\n\n.learn a:hover {\n  text-decoration: underline;\n  color: #787e7e; }\n\n.learn h3,\n.learn h4,\n.learn h5 {\n  margin: 10px 0;\n  font-weight: 500;\n  line-height: 1.2;\n  color: #000; }\n\n.learn h3 {\n  font-size: 24px; }\n\n.learn h4 {\n  font-size: 18px; }\n\n.learn h5 {\n  margin-bottom: 0;\n  font-size: 14px; }\n\n.learn ul {\n  padding: 0;\n  margin: 0 0 30px 25px; }\n\n.learn li {\n  line-height: 20px; }\n\n.learn p {\n  font-size: 15px;\n  font-weight: 300;\n  line-height: 1.3;\n  margin-top: 0;\n  margin-bottom: 0; }\n\n#issue-count {\n  display: none; }\n\n.quote {\n  border: none;\n  margin: 20px 0 60px 0; }\n\n.quote p {\n  font-style: italic; }\n\n.quote p:before {\n  content: '“';\n  font-size: 50px;\n  opacity: .15;\n  position: absolute;\n  top: -20px;\n  left: 3px; }\n\n.quote p:after {\n  content: '”';\n  font-size: 50px;\n  opacity: .15;\n  position: absolute;\n  bottom: -42px;\n  right: 3px; }\n\n.quote footer {\n  position: absolute;\n  bottom: -40px;\n  right: 0; }\n\n.quote footer img {\n  border-radius: 3px; }\n\n.quote footer a {\n  margin-left: 5px;\n  vertical-align: middle; }\n\n.speech-bubble {\n  position: relative;\n  padding: 10px;\n  background: rgba(0, 0, 0, 0.04);\n  border-radius: 5px; }\n\n.speech-bubble:after {\n  content: '';\n  position: absolute;\n  top: 100%;\n  right: 30px;\n  border: 13px solid transparent;\n  border-top-color: rgba(0, 0, 0, 0.04); }\n\n.learn-bar > .learn {\n  position: absolute;\n  width: 272px;\n  top: 8px;\n  left: -300px;\n  padding: 10px;\n  border-radius: 5px;\n  background-color: rgba(255, 255, 255, 0.6);\n  transition-property: left;\n  transition-duration: 500ms; }\n\n@media (min-width: 899px) {\n  .learn-bar {\n    width: auto;\n    padding-left: 300px; }\n  .learn-bar > .learn {\n    left: 8px; } }\n", "",{"version":3,"sources":["base.scss","C:/Users/zoghadya/Documents/My_Apps/DevTools-todomvc/scss/base.scss"],"names":[],"mappings":"AAAA,gBAAgB;ACAhB;EACC,cAAc;EACd,SAAS;EACT,8BAA8B;EAC9B,iCAAiC,EAAA;;AAGlC;EACC,mBAAmB;EACnB,qBAAqB;EACrB,cAAc,EAAA;;AAGf;EACC,0BAA0B;EAC1B,cAAc,EAAA;;AAGf;;;EAGC,cAAc;EACd,gBAAgB;EAChB,gBAAgB;EAChB,WAAW,EAAA;;AAGZ;EACC,eAAe,EAAA;;AAGhB;EACC,eAAe,EAAA;;AAGhB;EACC,gBAAgB;EAChB,eAAe,EAAA;;AAGhB;EACC,UAAU;EACV,qBAAqB,EAAA;;AAGtB;EACC,iBAAiB,EAAA;;AAGlB;EACC,eAAe;EACf,gBAAgB;EAChB,gBAAgB;EAChB,aAAa;EACb,gBAAgB,EAAA;;AAGjB;EACC,aAAa,EAAA;;AAGd;EACC,YAAY;EACZ,qBAAqB,EAAA;;AAGtB;EACC,kBAAkB,EAAA;;AAGnB;EACC,YAAS;EACT,eAAe;EACf,YAAY;EACZ,kBAAkB;EAClB,UAAU;EACV,SAAS,EAAA;;AAGV;EACC,YAAS;EACT,eAAe;EACf,YAAY;EACZ,kBAAkB;EAClB,aAAa;EACb,UAAU,EAAA;;AAGX;EACC,kBAAkB;EAClB,aAAa;EACb,QAAQ,EAAA;;AAGT;EACC,kBAAkB,EAAA;;AAGnB;EACC,gBAAgB;EAChB,sBAAsB,EAAA;;AAGvB;EACC,kBAAkB;EAClB,aAAa;EACb,+BAA8B;EAC9B,kBAAkB,EAAA;;AAGnB;EACC,WAAW;EACX,kBAAkB;EAClB,SAAS;EACT,WAAW;EACX,8BAA8B;EAC9B,qCAAoC,EAAA;;AAGrC;EACC,kBAAkB;EAClB,YAAY;EACZ,QAAQ;EACR,YAAY;EACZ,aAAa;EACb,kBAAkB;EAClB,0CAAyC;EACzC,yBAAyB;EACzB,0BAA0B,EAAA;;AAG3B;EACC;IACC,WAAW;IACX,mBAAmB,EAAA;EAGpB;IACC,SAAS,EAAA,EACT","file":"base.scss","sourcesContent":["@charset \"UTF-8\";\nhr {\n  margin: 20px 0;\n  border: 0;\n  border-top: 1px dashed #c5c5c5;\n  border-bottom: 1px dashed #f7f7f7; }\n\n.learn a {\n  font-weight: normal;\n  text-decoration: none;\n  color: #b83f45; }\n\n.learn a:hover {\n  text-decoration: underline;\n  color: #787e7e; }\n\n.learn h3,\n.learn h4,\n.learn h5 {\n  margin: 10px 0;\n  font-weight: 500;\n  line-height: 1.2;\n  color: #000; }\n\n.learn h3 {\n  font-size: 24px; }\n\n.learn h4 {\n  font-size: 18px; }\n\n.learn h5 {\n  margin-bottom: 0;\n  font-size: 14px; }\n\n.learn ul {\n  padding: 0;\n  margin: 0 0 30px 25px; }\n\n.learn li {\n  line-height: 20px; }\n\n.learn p {\n  font-size: 15px;\n  font-weight: 300;\n  line-height: 1.3;\n  margin-top: 0;\n  margin-bottom: 0; }\n\n#issue-count {\n  display: none; }\n\n.quote {\n  border: none;\n  margin: 20px 0 60px 0; }\n\n.quote p {\n  font-style: italic; }\n\n.quote p:before {\n  content: '“';\n  font-size: 50px;\n  opacity: .15;\n  position: absolute;\n  top: -20px;\n  left: 3px; }\n\n.quote p:after {\n  content: '”';\n  font-size: 50px;\n  opacity: .15;\n  position: absolute;\n  bottom: -42px;\n  right: 3px; }\n\n.quote footer {\n  position: absolute;\n  bottom: -40px;\n  right: 0; }\n\n.quote footer img {\n  border-radius: 3px; }\n\n.quote footer a {\n  margin-left: 5px;\n  vertical-align: middle; }\n\n.speech-bubble {\n  position: relative;\n  padding: 10px;\n  background: rgba(0, 0, 0, 0.04);\n  border-radius: 5px; }\n\n.speech-bubble:after {\n  content: '';\n  position: absolute;\n  top: 100%;\n  right: 30px;\n  border: 13px solid transparent;\n  border-top-color: rgba(0, 0, 0, 0.04); }\n\n.learn-bar > .learn {\n  position: absolute;\n  width: 272px;\n  top: 8px;\n  left: -300px;\n  padding: 10px;\n  border-radius: 5px;\n  background-color: rgba(255, 255, 255, 0.6);\n  transition-property: left;\n  transition-duration: 500ms; }\n\n@media (min-width: 899px) {\n  .learn-bar {\n    width: auto;\n    padding-left: 300px; }\n  .learn-bar > .learn {\n    left: 8px; } }\n","hr {\n\tmargin: 20px 0;\n\tborder: 0;\n\tborder-top: 1px dashed #c5c5c5;\n\tborder-bottom: 1px dashed #f7f7f7;\n}\n\n.learn a {\n\tfont-weight: normal;\n\ttext-decoration: none;\n\tcolor: #b83f45;\n}\n\n.learn a:hover {\n\ttext-decoration: underline;\n\tcolor: #787e7e;\n}\n\n.learn h3,\n.learn h4,\n.learn h5 {\n\tmargin: 10px 0;\n\tfont-weight: 500;\n\tline-height: 1.2;\n\tcolor: #000;\n}\n\n.learn h3 {\n\tfont-size: 24px;\n}\n\n.learn h4 {\n\tfont-size: 18px;\n}\n\n.learn h5 {\n\tmargin-bottom: 0;\n\tfont-size: 14px;\n}\n\n.learn ul {\n\tpadding: 0;\n\tmargin: 0 0 30px 25px;\n}\n\n.learn li {\n\tline-height: 20px;\n}\n\n.learn p {\n\tfont-size: 15px;\n\tfont-weight: 300;\n\tline-height: 1.3;\n\tmargin-top: 0;\n\tmargin-bottom: 0;\n}\n\n#issue-count {\n\tdisplay: none;\n}\n\n.quote {\n\tborder: none;\n\tmargin: 20px 0 60px 0;\n}\n\n.quote p {\n\tfont-style: italic;\n}\n\n.quote p:before {\n\tcontent: '“';\n\tfont-size: 50px;\n\topacity: .15;\n\tposition: absolute;\n\ttop: -20px;\n\tleft: 3px;\n}\n\n.quote p:after {\n\tcontent: '”';\n\tfont-size: 50px;\n\topacity: .15;\n\tposition: absolute;\n\tbottom: -42px;\n\tright: 3px;\n}\n\n.quote footer {\n\tposition: absolute;\n\tbottom: -40px;\n\tright: 0;\n}\n\n.quote footer img {\n\tborder-radius: 3px;\n}\n\n.quote footer a {\n\tmargin-left: 5px;\n\tvertical-align: middle;\n}\n\n.speech-bubble {\n\tposition: relative;\n\tpadding: 10px;\n\tbackground: rgba(0, 0, 0, .04);\n\tborder-radius: 5px;\n}\n\n.speech-bubble:after {\n\tcontent: '';\n\tposition: absolute;\n\ttop: 100%;\n\tright: 30px;\n\tborder: 13px solid transparent;\n\tborder-top-color: rgba(0, 0, 0, .04);\n}\n\n.learn-bar > .learn {\n\tposition: absolute;\n\twidth: 272px;\n\ttop: 8px;\n\tleft: -300px;\n\tpadding: 10px;\n\tborder-radius: 5px;\n\tbackground-color: rgba(255, 255, 255, .6);\n\ttransition-property: left;\n\ttransition-duration: 500ms;\n}\n\n@media (min-width: 899px) {\n\t.learn-bar {\n\t\twidth: auto;\n\t\tpadding-left: 300px;\n\t}\n\n\t.learn-bar > .learn {\n\t\tleft: 8px;\n\t}\n}\n"]}]);
+exports.push([module.i, "@charset \"UTF-8\";\nhr {\n  margin: 20px 0;\n  border: 0;\n  border-top: 1px dashed #c5c5c5;\n  border-bottom: 1px dashed #f7f7f7; }\n\n.learn a {\n  font-weight: normal;\n  text-decoration: none;\n  color: #b83f45; }\n\n.learn a:hover {\n  text-decoration: underline;\n  color: #787e7e; }\n\n.learn h3,\n.learn h4,\n.learn h5 {\n  margin: 10px 0;\n  font-weight: 500;\n  line-height: 1.2;\n  color: #000; }\n\n.learn h3 {\n  font-size: 24px; }\n\n.learn h4 {\n  font-size: 18px; }\n\n.learn h5 {\n  margin-bottom: 0;\n  font-size: 14px; }\n\n.learn ul {\n  padding: 0;\n  margin: 0 0 30px 25px; }\n\n.learn li {\n  line-height: 20px; }\n\n.learn p {\n  font-size: 15px;\n  font-weight: 300;\n  line-height: 1.3;\n  margin-top: 0;\n  margin-bottom: 0; }\n\n#issue-count {\n  display: none; }\n\n.quote {\n  border: none;\n  margin: 20px 0 60px 0; }\n\n.quote p {\n  font-style: italic; }\n\n.quote p:before {\n  content: '“';\n  font-size: 50px;\n  opacity: .15;\n  position: absolute;\n  top: -20px;\n  left: 3px; }\n\n.quote p:after {\n  content: '”';\n  font-size: 50px;\n  opacity: .15;\n  position: absolute;\n  bottom: -42px;\n  right: 3px; }\n\n.quote footer {\n  position: absolute;\n  bottom: -40px;\n  right: 0; }\n\n.quote footer img {\n  border-radius: 3px; }\n\n.quote footer a {\n  margin-left: 5px;\n  vertical-align: middle; }\n\n.speech-bubble {\n  position: relative;\n  padding: 10px;\n  background: rgba(0, 0, 0, 0.04);\n  border-radius: 5px; }\n\n.speech-bubble:after {\n  content: '';\n  position: absolute;\n  top: 100%;\n  right: 30px;\n  border: 13px solid transparent;\n  border-top-color: rgba(0, 0, 0, 0.04); }\n\n.learn-bar > .learn {\n  position: absolute;\n  width: 272px;\n  top: 8px;\n  left: -300px;\n  padding: 10px;\n  border-radius: 5px;\n  background-color: rgba(255, 255, 255, 0.6);\n  transition-property: left;\n  transition-duration: 500ms; }\n\n@media (min-width: 899px) {\n  .learn-bar {\n    width: auto;\n    padding-left: 300px; }\n  .learn-bar > .learn {\n    left: 8px; } }\n\n.dialog {\n  backdrop-filter: blur(10px);\n  -webkit-backdop-filter: blur(10px);\n  display: none; }\n\n.url {\n  word-break: break-word;\n  display: none; }\n", "",{"version":3,"sources":["base.scss","C:/Users/zoghadya/Documents/My_Apps/DevTools-todomvc/scss/base.scss"],"names":[],"mappings":"AAAA,gBAAgB;ACAhB;EACC,cAAc;EACd,SAAS;EACT,8BAA8B;EAC9B,iCAAiC,EAAA;;AAGlC;EACC,mBAAmB;EACnB,qBAAqB;EACrB,cAAc,EAAA;;AAGf;EACC,0BAA0B;EAC1B,cAAc,EAAA;;AAGf;;;EAGC,cAAc;EACd,gBAAgB;EAChB,gBAAgB;EAChB,WAAW,EAAA;;AAGZ;EACC,eAAe,EAAA;;AAGhB;EACC,eAAe,EAAA;;AAGhB;EACC,gBAAgB;EAChB,eAAe,EAAA;;AAGhB;EACC,UAAU;EACV,qBAAqB,EAAA;;AAGtB;EACC,iBAAiB,EAAA;;AAGlB;EACC,eAAe;EACf,gBAAgB;EAChB,gBAAgB;EAChB,aAAa;EACb,gBAAgB,EAAA;;AAGjB;EACC,aAAa,EAAA;;AAGd;EACC,YAAY;EACZ,qBAAqB,EAAA;;AAGtB;EACC,kBAAkB,EAAA;;AAGnB;EACC,YAAS;EACT,eAAe;EACf,YAAY;EACZ,kBAAkB;EAClB,UAAU;EACV,SAAS,EAAA;;AAGV;EACC,YAAS;EACT,eAAe;EACf,YAAY;EACZ,kBAAkB;EAClB,aAAa;EACb,UAAU,EAAA;;AAGX;EACC,kBAAkB;EAClB,aAAa;EACb,QAAQ,EAAA;;AAGT;EACC,kBAAkB,EAAA;;AAGnB;EACC,gBAAgB;EAChB,sBAAsB,EAAA;;AAGvB;EACC,kBAAkB;EAClB,aAAa;EACb,+BAA8B;EAC9B,kBAAkB,EAAA;;AAGnB;EACC,WAAW;EACX,kBAAkB;EAClB,SAAS;EACT,WAAW;EACX,8BAA8B;EAC9B,qCAAoC,EAAA;;AAGrC;EACC,kBAAkB;EAClB,YAAY;EACZ,QAAQ;EACR,YAAY;EACZ,aAAa;EACb,kBAAkB;EAClB,0CAAyC;EACzC,yBAAyB;EACzB,0BAA0B,EAAA;;AAG3B;EACC;IACC,WAAW;IACX,mBAAmB,EAAA;EAGpB;IACC,SAAS,EAAA,EACT;;AAGF;EACC,2BAA2B;EAC3B,kCAAkC;EAClC,aAAa,EAAA;;AAGd;EACC,sBAAsB;EACtB,aAAa,EAAA","file":"base.scss","sourcesContent":["@charset \"UTF-8\";\nhr {\n  margin: 20px 0;\n  border: 0;\n  border-top: 1px dashed #c5c5c5;\n  border-bottom: 1px dashed #f7f7f7; }\n\n.learn a {\n  font-weight: normal;\n  text-decoration: none;\n  color: #b83f45; }\n\n.learn a:hover {\n  text-decoration: underline;\n  color: #787e7e; }\n\n.learn h3,\n.learn h4,\n.learn h5 {\n  margin: 10px 0;\n  font-weight: 500;\n  line-height: 1.2;\n  color: #000; }\n\n.learn h3 {\n  font-size: 24px; }\n\n.learn h4 {\n  font-size: 18px; }\n\n.learn h5 {\n  margin-bottom: 0;\n  font-size: 14px; }\n\n.learn ul {\n  padding: 0;\n  margin: 0 0 30px 25px; }\n\n.learn li {\n  line-height: 20px; }\n\n.learn p {\n  font-size: 15px;\n  font-weight: 300;\n  line-height: 1.3;\n  margin-top: 0;\n  margin-bottom: 0; }\n\n#issue-count {\n  display: none; }\n\n.quote {\n  border: none;\n  margin: 20px 0 60px 0; }\n\n.quote p {\n  font-style: italic; }\n\n.quote p:before {\n  content: '“';\n  font-size: 50px;\n  opacity: .15;\n  position: absolute;\n  top: -20px;\n  left: 3px; }\n\n.quote p:after {\n  content: '”';\n  font-size: 50px;\n  opacity: .15;\n  position: absolute;\n  bottom: -42px;\n  right: 3px; }\n\n.quote footer {\n  position: absolute;\n  bottom: -40px;\n  right: 0; }\n\n.quote footer img {\n  border-radius: 3px; }\n\n.quote footer a {\n  margin-left: 5px;\n  vertical-align: middle; }\n\n.speech-bubble {\n  position: relative;\n  padding: 10px;\n  background: rgba(0, 0, 0, 0.04);\n  border-radius: 5px; }\n\n.speech-bubble:after {\n  content: '';\n  position: absolute;\n  top: 100%;\n  right: 30px;\n  border: 13px solid transparent;\n  border-top-color: rgba(0, 0, 0, 0.04); }\n\n.learn-bar > .learn {\n  position: absolute;\n  width: 272px;\n  top: 8px;\n  left: -300px;\n  padding: 10px;\n  border-radius: 5px;\n  background-color: rgba(255, 255, 255, 0.6);\n  transition-property: left;\n  transition-duration: 500ms; }\n\n@media (min-width: 899px) {\n  .learn-bar {\n    width: auto;\n    padding-left: 300px; }\n  .learn-bar > .learn {\n    left: 8px; } }\n\n.dialog {\n  backdrop-filter: blur(10px);\n  -webkit-backdop-filter: blur(10px);\n  display: none; }\n\n.url {\n  word-break: break-word;\n  display: none; }\n","hr {\n\tmargin: 20px 0;\n\tborder: 0;\n\tborder-top: 1px dashed #c5c5c5;\n\tborder-bottom: 1px dashed #f7f7f7;\n}\n\n.learn a {\n\tfont-weight: normal;\n\ttext-decoration: none;\n\tcolor: #b83f45;\n}\n\n.learn a:hover {\n\ttext-decoration: underline;\n\tcolor: #787e7e;\n}\n\n.learn h3,\n.learn h4,\n.learn h5 {\n\tmargin: 10px 0;\n\tfont-weight: 500;\n\tline-height: 1.2;\n\tcolor: #000;\n}\n\n.learn h3 {\n\tfont-size: 24px;\n}\n\n.learn h4 {\n\tfont-size: 18px;\n}\n\n.learn h5 {\n\tmargin-bottom: 0;\n\tfont-size: 14px;\n}\n\n.learn ul {\n\tpadding: 0;\n\tmargin: 0 0 30px 25px;\n}\n\n.learn li {\n\tline-height: 20px;\n}\n\n.learn p {\n\tfont-size: 15px;\n\tfont-weight: 300;\n\tline-height: 1.3;\n\tmargin-top: 0;\n\tmargin-bottom: 0;\n}\n\n#issue-count {\n\tdisplay: none;\n}\n\n.quote {\n\tborder: none;\n\tmargin: 20px 0 60px 0;\n}\n\n.quote p {\n\tfont-style: italic;\n}\n\n.quote p:before {\n\tcontent: '“';\n\tfont-size: 50px;\n\topacity: .15;\n\tposition: absolute;\n\ttop: -20px;\n\tleft: 3px;\n}\n\n.quote p:after {\n\tcontent: '”';\n\tfont-size: 50px;\n\topacity: .15;\n\tposition: absolute;\n\tbottom: -42px;\n\tright: 3px;\n}\n\n.quote footer {\n\tposition: absolute;\n\tbottom: -40px;\n\tright: 0;\n}\n\n.quote footer img {\n\tborder-radius: 3px;\n}\n\n.quote footer a {\n\tmargin-left: 5px;\n\tvertical-align: middle;\n}\n\n.speech-bubble {\n\tposition: relative;\n\tpadding: 10px;\n\tbackground: rgba(0, 0, 0, .04);\n\tborder-radius: 5px;\n}\n\n.speech-bubble:after {\n\tcontent: '';\n\tposition: absolute;\n\ttop: 100%;\n\tright: 30px;\n\tborder: 13px solid transparent;\n\tborder-top-color: rgba(0, 0, 0, .04);\n}\n\n.learn-bar > .learn {\n\tposition: absolute;\n\twidth: 272px;\n\ttop: 8px;\n\tleft: -300px;\n\tpadding: 10px;\n\tborder-radius: 5px;\n\tbackground-color: rgba(255, 255, 255, .6);\n\ttransition-property: left;\n\ttransition-duration: 500ms;\n}\n\n@media (min-width: 899px) {\n\t.learn-bar {\n\t\twidth: auto;\n\t\tpadding-left: 300px;\n\t}\n\n\t.learn-bar > .learn {\n\t\tleft: 8px;\n\t}\n}\n\n.dialog {\n\tbackdrop-filter: blur(10px);\n\t-webkit-backdop-filter: blur(10px);\n\tdisplay: none;\n}\n\n.url {\n\tword-break: break-word;\n\tdisplay: none;\n}"]}]);
 
 
 /***/ }),
@@ -29834,7 +29834,13 @@ if (content.locals) {
 
 "use strict";
 
+/*jshint quotmark:false */
+/*jshint white:false */
+/*jshint trailing:false */
+/*jshint newcap:false */
+/*global React, Router*/
 Object.defineProperty(exports, "__esModule", { value: true });
+/// <reference path="./interfaces.d.ts"/>
 const React = __webpack_require__(/*! react */ "../node_modules/react/index.js");
 const ReactDOM = __webpack_require__(/*! react-dom */ "../node_modules/react-dom/index.js");
 const todoModel_1 = __webpack_require__(/*! ./todoModel */ "./todoModel.js");
@@ -29911,6 +29917,10 @@ class TodoApp extends React.Component {
         var todoItems = shownTodos.map((todo) => {
             return (React.createElement(todoItem_1.TodoItem, { key: todo.id, todo: todo, onToggle: this.toggle.bind(this, todo), onDestroy: this.destroy.bind(this, todo), onEdit: this.edit.bind(this, todo), editing: this.state.editing === todo.id, onSave: this.save.bind(this, todo), onCancel: e => this.cancel() }));
         });
+        // Note: It's usually better to use immutable data structures since they're
+        // easier to reason about and React works very well with them. That's why
+        // we use map(), filter() and reduce() everywhere instead of mutating the
+        // array or todo items themselves.
         var activeTodoCount = todos.reduce(function (accum, todo) {
             return todo.completed ? accum : accum + 1;
         }, 0);
@@ -29976,7 +29986,13 @@ exports.ESCAPE_KEY = ESCAPE_KEY;
 
 "use strict";
 
+/*jshint quotmark:false */
+/*jshint white:false */
+/*jshint trailing:false */
+/*jshint newcap:false */
+/*global React */
 Object.defineProperty(exports, "__esModule", { value: true });
+/// <reference path="./interfaces.d.ts"/>
 const classNames = __webpack_require__(/*! classnames */ "../node_modules/classnames/index.js");
 const React = __webpack_require__(/*! react */ "../node_modules/react/index.js");
 const constants_1 = __webpack_require__(/*! ./constants */ "./constants.js");
@@ -30021,7 +30037,13 @@ exports.TodoFooter = TodoFooter;
 
 "use strict";
 
+/*jshint quotmark: false */
+/*jshint white: false */
+/*jshint trailing: false */
+/*jshint newcap: false */
+/*global React */
 Object.defineProperty(exports, "__esModule", { value: true });
+/// <reference path="./interfaces.d.ts"/>
 const classNames = __webpack_require__(/*! classnames */ "../node_modules/classnames/index.js");
 const React = __webpack_require__(/*! react */ "../node_modules/react/index.js");
 const ReactDOM = __webpack_require__(/*! react-dom */ "../node_modules/react-dom/index.js");
@@ -30059,11 +30081,24 @@ class TodoItem extends React.Component {
         var input = event.target;
         this.setState({ editText: input.value });
     }
+    /**
+     * This is a completely optional performance enhancement that you can
+     * implement on any React component. If you were to delete this method
+     * the app would still work correctly (and still be very performant!), we
+     * just use it as an example of how little code it takes to get an order
+     * of magnitude performance improvement.
+     */
     shouldComponentUpdate(nextProps, nextState) {
         return (nextProps.todo !== this.props.todo ||
             nextProps.editing !== this.props.editing ||
             nextState.editText !== this.state.editText);
     }
+    /**
+     * Safely manipulate the DOM after updating the state when invoking
+     * `this.props.onEdit()` in the `handleEdit` method above.
+     * For more info refer to notes at https://facebook.github.io/react/docs/component-api.html#setstate
+     * and https://facebook.github.io/react/docs/component-specs.html#updating-componentdidupdate
+     */
     componentDidUpdate(prevProps) {
         if (!prevProps.editing && this.props.editing) {
             var node = ReactDOM.findDOMNode(this.refs["editField"]);
@@ -30097,8 +30132,18 @@ exports.TodoItem = TodoItem;
 
 "use strict";
 
+/*jshint quotmark:false */
+/*jshint white:false */
+/*jshint trailing:false */
+/*jshint newcap:false */
 Object.defineProperty(exports, "__esModule", { value: true });
+/// <reference path="./interfaces.d.ts"/>
 const utils_1 = __webpack_require__(/*! ./utils */ "./utils.js");
+// Generic "model" object. You can use whatever
+// framework you want. For this application it
+// may not even be worth separating this logic
+// out, but we do this to demonstrate one way to
+// separate out parts of your application.
 class TodoModel {
     constructor(key) {
         this.key = key;
@@ -30121,6 +30166,10 @@ class TodoModel {
         this.inform();
     }
     toggleAll(checked) {
+        // Note: It's usually better to use immutable data structures since they're
+        // easier to reason about and React works very well with them. That's why
+        // we use map(), filter() and reduce() everywhere instead of mutating the
+        // array or todo items themselves.
         this.todos = this.todos.map((todo) => {
             return utils_1.Utils.extend({}, todo, { completed: checked });
         });
@@ -30170,6 +30219,7 @@ exports.TodoModel = TodoModel;
 Object.defineProperty(exports, "__esModule", { value: true });
 class Utils {
     static uuid() {
+        /*jshint bitwise:false */
         var i, random;
         var uuid = '';
         for (i = 0; i < 32; i++) {

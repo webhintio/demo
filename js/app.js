@@ -1,5 +1,11 @@
 "use strict";
+/*jshint quotmark:false */
+/*jshint white:false */
+/*jshint trailing:false */
+/*jshint newcap:false */
+/*global React, Router*/
 Object.defineProperty(exports, "__esModule", { value: true });
+/// <reference path="./interfaces.d.ts"/>
 const React = require("react");
 const ReactDOM = require("react-dom");
 const todoModel_1 = require("./todoModel");
@@ -76,6 +82,10 @@ class TodoApp extends React.Component {
         var todoItems = shownTodos.map((todo) => {
             return (React.createElement(todoItem_1.TodoItem, { key: todo.id, todo: todo, onToggle: this.toggle.bind(this, todo), onDestroy: this.destroy.bind(this, todo), onEdit: this.edit.bind(this, todo), editing: this.state.editing === todo.id, onSave: this.save.bind(this, todo), onCancel: e => this.cancel() }));
         });
+        // Note: It's usually better to use immutable data structures since they're
+        // easier to reason about and React works very well with them. That's why
+        // we use map(), filter() and reduce() everywhere instead of mutating the
+        // array or todo items themselves.
         var activeTodoCount = todos.reduce(function (accum, todo) {
             return todo.completed ? accum : accum + 1;
         }, 0);
