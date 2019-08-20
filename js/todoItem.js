@@ -7,13 +7,13 @@ const constants_1 = require("./constants");
 class TodoItem extends React.Component {
     constructor(props) {
         super(props);
+        console.log("You just created a new todo item: ", this.props.todo.title);
         this.state = { editText: this.props.todo.title };
     }
     handleSubmit(event) {
         var val = this.state.editText.trim();
         if (val) {
             this.props.onSave(val);
-            console.log("hello from handleSubmit", val);
             this.setState({ editText: val });
         }
         else {

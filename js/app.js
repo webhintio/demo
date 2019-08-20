@@ -8,7 +8,6 @@ const todoItem_1 = require("./todoItem");
 const constants_1 = require("./constants");
 class TodoApp extends React.Component {
     constructor(props) {
-        console.log("Hello from the constructor");
         super(props);
         this.state = {
             nowShowing: constants_1.ALL_TODOS,
@@ -50,7 +49,7 @@ class TodoApp extends React.Component {
         this.setState({ editing: todo.id });
     }
     save(todoToSave, text) {
-        console.log("hello from save", text);
+        console.log("This is the saved todo:", text);
         this.props.model.save(todoToSave, text);
         this.setState({ editing: null });
     }

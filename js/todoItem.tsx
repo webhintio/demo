@@ -17,6 +17,7 @@ class TodoItem extends React.Component<ITodoItemProps, ITodoItemState> {
 
   constructor(props : ITodoItemProps){
     super(props);
+    console.log("You just created a new todo item: ", this.props.todo.title);
     this.state = { editText: this.props.todo.title };
   }
 
@@ -24,7 +25,6 @@ class TodoItem extends React.Component<ITodoItemProps, ITodoItemState> {
     var val = this.state.editText.trim();
     if (val) {
       this.props.onSave(val);
-      console.log("hello from handleSubmit", val);
       this.setState({editText: val});
     } else {
       this.props.onDestroy();

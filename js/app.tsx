@@ -19,7 +19,6 @@ class TodoApp extends React.Component<IAppProps, IAppState> {
   public state : IAppState;
 
   constructor(props : IAppProps) {
-    console.log("Hello from the constructor");
     super(props);
     this.state = {
       nowShowing: ALL_TODOS,
@@ -71,7 +70,7 @@ class TodoApp extends React.Component<IAppProps, IAppState> {
   }
 
   public save(todoToSave : ITodo, text : String) {
-    console.log("hello from save", text);
+    console.log("This is the saved todo:", text);
     this.props.model.save(todoToSave, text);
     this.setState({editing: null});
   }

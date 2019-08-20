@@ -29843,7 +29843,6 @@ const todoItem_1 = __webpack_require__(/*! ./todoItem */ "./todoItem.js");
 const constants_1 = __webpack_require__(/*! ./constants */ "./constants.js");
 class TodoApp extends React.Component {
     constructor(props) {
-        console.log("Hello from the constructor");
         super(props);
         this.state = {
             nowShowing: constants_1.ALL_TODOS,
@@ -29885,7 +29884,7 @@ class TodoApp extends React.Component {
         this.setState({ editing: todo.id });
     }
     save(todoToSave, text) {
-        console.log("hello from save", text);
+        console.log("This is the saved todo:", text);
         this.props.model.save(todoToSave, text);
         this.setState({ editing: null });
     }
@@ -30030,13 +30029,13 @@ const constants_1 = __webpack_require__(/*! ./constants */ "./constants.js");
 class TodoItem extends React.Component {
     constructor(props) {
         super(props);
+        console.log("You just created a new todo item: ", this.props.todo.title);
         this.state = { editText: this.props.todo.title };
     }
     handleSubmit(event) {
         var val = this.state.editText.trim();
         if (val) {
             this.props.onSave(val);
-            console.log("hello from handleSubmit", val);
             this.setState({ editText: val });
         }
         else {
