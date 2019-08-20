@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "build": "./node_modules/typescript/bin/tsc -p ./js/ && node ./node_modules/browserify/bin/cmd ./js/app.js -o ./js/bundle.js",
+    "build": "tsc -p ./js/ && webpack --config ./js/webpack.config.js",
     "start": "node ./serve.js"
   },
   "dependencies": {
@@ -12,12 +12,17 @@
     "director": "^1.2.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
+    "sass": "^1.22.10",
     "todomvc-app-css": "^2.0.0",
     "todomvc-common": "^1.0.1"
   },
   "devDependencies": {
     "browserify": "^16.2.3",
+    "css-loader": "^3.2.0",
+    "node-sass": "^4.12.0",
     "node-static": "^0.7.11",
+    "sass-loader": "^7.2.0",
+    "style-loader": "^1.0.0",
     "typescript": "^2.9.2",
     "webpack": "^4.39.2",
     "webpack-cli": "^3.3.7"

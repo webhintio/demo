@@ -13,6 +13,7 @@ class TodoItem extends React.Component {
         var val = this.state.editText.trim();
         if (val) {
             this.props.onSave(val);
+            console.log("hello from handleSubmit", val);
             this.setState({ editText: val });
         }
         else {
