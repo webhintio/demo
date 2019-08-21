@@ -2,7 +2,8 @@
   "private": true,
   "scripts": {
     "build": "tsc -p ./js/ && webpack --config ./js/webpack.config.js",
-    "start": "node ./serve.js"
+    "start": "node ./serve.js",
+    "test": "jest"
   },
   "dependencies": {
     "@types/classnames": "^2.2.6",
@@ -21,8 +22,10 @@
     "browserify": "^16.2.3",
     "css-loader": "^3.2.0",
     "hint": "^5.2.1",
+    "jest": "^24.9.0",
     "node-sass": "^4.12.0",
     "node-static": "^0.7.11",
+    "puppeteer": "^1.19.0",
     "sass-loader": "^7.2.0",
     "style-loader": "^1.0.0",
     "tslib": "^1.10.0",
