@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "build": "tsc -p ./js/ && webpack --config ./js/webpack.config.js",
+    "build": "tsc -p ./js/ && webpack --watch --config ./js/webpack.config.js",
     "start": "node ./serve.js",
     "test": "jest"
   },
@@ -29,7 +29,7 @@
     "sass-loader": "^7.2.0",
     "style-loader": "^1.0.0",
     "tslib": "^1.10.0",
-    "typescript": "^2.9.2",
+    "typescript": "^3.5.3",
     "webpack": "^4.39.2",
     "webpack-cli": "^3.3.7"
   }
