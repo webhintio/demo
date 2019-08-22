@@ -29843,10 +29843,10 @@ Object.defineProperty(exports, "__esModule", { value: true });
 /// <reference path="./interfaces.d.ts"/>
 const React = __webpack_require__(/*! react */ "../node_modules/react/index.js");
 const ReactDOM = __webpack_require__(/*! react-dom */ "../node_modules/react-dom/index.js");
-const todoModel_1 = __webpack_require__(/*! ./todoModel */ "./todoModel.js");
-const footer_1 = __webpack_require__(/*! ./footer */ "./footer.js");
-const todoItem_1 = __webpack_require__(/*! ./todoItem */ "./todoItem.js");
-const constants_1 = __webpack_require__(/*! ./constants */ "./constants.js");
+const todoModel_1 = __webpack_require__(/*! ./todoModel */ "./todoModel.ts");
+const footer_1 = __webpack_require__(/*! ./footer */ "./footer.tsx");
+const todoItem_1 = __webpack_require__(/*! ./todoItem */ "./todoItem.tsx");
+const constants_1 = __webpack_require__(/*! ./constants */ "./constants.ts");
 class TodoApp extends React.Component {
     constructor(props) {
         super(props);
@@ -29953,9 +29953,9 @@ render();
 
 /***/ }),
 
-/***/ "./constants.js":
+/***/ "./constants.ts":
 /*!**********************!*\
-  !*** ./constants.js ***!
+  !*** ./constants.ts ***!
   \**********************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -29973,14 +29973,14 @@ const ENTER_KEY = 13;
 exports.ENTER_KEY = ENTER_KEY;
 const ESCAPE_KEY = 27;
 exports.ESCAPE_KEY = ESCAPE_KEY;
-//# sourceMappingURL=constants.js.map
+
 
 /***/ }),
 
-/***/ "./footer.js":
-/*!*******************!*\
-  !*** ./footer.js ***!
-  \*******************/
+/***/ "./footer.tsx":
+/*!********************!*\
+  !*** ./footer.tsx ***!
+  \********************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -29995,8 +29995,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 /// <reference path="./interfaces.d.ts"/>
 const classNames = __webpack_require__(/*! classnames */ "../node_modules/classnames/index.js");
 const React = __webpack_require__(/*! react */ "../node_modules/react/index.js");
-const constants_1 = __webpack_require__(/*! ./constants */ "./constants.js");
-const utils_1 = __webpack_require__(/*! ./utils */ "./utils.js");
+const constants_1 = __webpack_require__(/*! ./constants */ "./constants.ts");
+const utils_1 = __webpack_require__(/*! ./utils */ "./utils.ts");
 class TodoFooter extends React.Component {
     render() {
         var activeTodoWord = utils_1.Utils.pluralize(this.props.count, 'item');
@@ -30024,14 +30024,14 @@ class TodoFooter extends React.Component {
     }
 }
 exports.TodoFooter = TodoFooter;
-//# sourceMappingURL=footer.js.map
+
 
 /***/ }),
 
-/***/ "./todoItem.js":
-/*!*********************!*\
-  !*** ./todoItem.js ***!
-  \*********************/
+/***/ "./todoItem.tsx":
+/*!**********************!*\
+  !*** ./todoItem.tsx ***!
+  \**********************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -30047,7 +30047,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const classNames = __webpack_require__(/*! classnames */ "../node_modules/classnames/index.js");
 const React = __webpack_require__(/*! react */ "../node_modules/react/index.js");
 const ReactDOM = __webpack_require__(/*! react-dom */ "../node_modules/react-dom/index.js");
-const constants_1 = __webpack_require__(/*! ./constants */ "./constants.js");
+const constants_1 = __webpack_require__(/*! ./constants */ "./constants.ts");
 class TodoItem extends React.Component {
     constructor(props) {
         super(props);
@@ -30119,13 +30119,13 @@ class TodoItem extends React.Component {
     }
 }
 exports.TodoItem = TodoItem;
-//# sourceMappingURL=todoItem.js.map
+
 
 /***/ }),
 
-/***/ "./todoModel.js":
+/***/ "./todoModel.ts":
 /*!**********************!*\
-  !*** ./todoModel.js ***!
+  !*** ./todoModel.ts ***!
   \**********************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -30138,7 +30138,7 @@ exports.TodoItem = TodoItem;
 /*jshint newcap:false */
 Object.defineProperty(exports, "__esModule", { value: true });
 /// <reference path="./interfaces.d.ts"/>
-const utils_1 = __webpack_require__(/*! ./utils */ "./utils.js");
+const utils_1 = __webpack_require__(/*! ./utils */ "./utils.ts");
 // Generic "model" object. You can use whatever
 // framework you want. For this application it
 // may not even be worth separating this logic
@@ -30190,10 +30190,10 @@ class TodoModel {
         this.inform();
     }
     save(todoToSave, text) {
-        this.todos = this.todos.map(function (todo) {
-            return todo !== todoToSave ? todo : utils_1.Utils.extend({}, todo, { title: text });
-        });
-        this.inform();
+        // this.todos = this.todos.map(function (todo) {
+        //   return todo !== todoToSave ? todo : Utils.extend({}, todo, {title: text});
+        // });
+        // this.inform();
     }
     clearCompleted() {
         this.todos = this.todos.filter(function (todo) {
@@ -30203,13 +30203,13 @@ class TodoModel {
     }
 }
 exports.TodoModel = TodoModel;
-//# sourceMappingURL=todoModel.js.map
+
 
 /***/ }),
 
-/***/ "./utils.js":
+/***/ "./utils.ts":
 /*!******************!*\
-  !*** ./utils.js ***!
+  !*** ./utils.ts ***!
   \******************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -30256,7 +30256,7 @@ class Utils {
     }
 }
 exports.Utils = Utils;
-//# sourceMappingURL=utils.js.map
+
 
 /***/ }),
 

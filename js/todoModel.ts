@@ -74,11 +74,11 @@ class TodoModel implements ITodoModel {
   }
 
   public save(todoToSave : ITodo, text : string) {
-    this.todos = this.todos.map(function (todo) {
-      return todo !== todoToSave ? todo : Utils.extend({}, todo, {title: text});
-    });
+    // this.todos = this.todos.map(function (todo) {
+    //   return todo !== todoToSave ? todo : Utils.extend({}, todo, {title: text});
+    // });
 
-    this.inform();
+    // this.inform();
   }
 
   public clearCompleted() {

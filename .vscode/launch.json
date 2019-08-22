@@ -7,6 +7,7 @@
         {
             "type": "edge",
             "request": "launch",
+            "version": "beta",
             "name": "Launch Microsoft Edge",
             "url": "http://localhost:4200",
             "webRoot": "${workspaceFolder}/js"
