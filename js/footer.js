@@ -37,3 +37,4 @@ class TodoFooter extends React.Component {
     }
 }
 exports.TodoFooter = TodoFooter;
+//# sourceMappingURL=footer.js.map

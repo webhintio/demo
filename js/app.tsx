@@ -6,7 +6,7 @@
 
 /// <reference path="./interfaces.d.ts"/>
 
-declare var Router;
+declare var Router: any;
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 import { TodoModel } from "./todoModel";

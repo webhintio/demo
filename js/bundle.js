@@ -150,21 +150,21 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 
 /***/ "../node_modules/css-loader/dist/cjs.js?!../node_modules/sass-loader/lib/loader.js?!../scss/base.scss":
 /*!******************************************************************************************************************************!*\
-  !*** ../node_modules/css-loader/dist/cjs.js??ref--4-1!../node_modules/sass-loader/lib/loader.js??ref--4-2!../scss/base.scss ***!
+  !*** ../node_modules/css-loader/dist/cjs.js??ref--5-1!../node_modules/sass-loader/lib/loader.js??ref--5-2!../scss/base.scss ***!
   \******************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "../node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, "@charset \"UTF-8\";\nhr {\n  margin: 20px 0;\n  border: 0;\n  border-top: 1px dashed #c5c5c5;\n  border-bottom: 1px dashed #f7f7f7; }\n\n.learn a {\n  font-weight: normal;\n  text-decoration: none;\n  color: #b83f45; }\n\n.learn a:hover {\n  text-decoration: underline;\n  color: #787e7e; }\n\n.learn h3,\n.learn h4,\n.learn h5 {\n  margin: 10px 0;\n  font-weight: 500;\n  line-height: 1.2;\n  color: #000; }\n\n.learn h3 {\n  font-size: 24px; }\n\n.learn h4 {\n  font-size: 18px; }\n\n.learn h5 {\n  margin-bottom: 0;\n  font-size: 14px; }\n\n.learn ul {\n  padding: 0;\n  margin: 0 0 30px 25px; }\n\n.learn li {\n  line-height: 20px; }\n\n.learn p {\n  font-size: 15px;\n  font-weight: 300;\n  line-height: 1.3;\n  margin-top: 0;\n  margin-bottom: 0; }\n\n#issue-count {\n  display: none; }\n\n.quote {\n  border: none;\n  margin: 20px 0 60px 0; }\n\n.quote p {\n  font-style: italic; }\n\n.quote p:before {\n  content: '“';\n  font-size: 50px;\n  opacity: .15;\n  position: absolute;\n  top: -20px;\n  left: 3px; }\n\n.quote p:after {\n  content: '”';\n  font-size: 50px;\n  opacity: .15;\n  position: absolute;\n  bottom: -42px;\n  right: 3px; }\n\n.quote footer {\n  position: absolute;\n  bottom: -40px;\n  right: 0; }\n\n.quote footer img {\n  border-radius: 3px; }\n\n.quote footer a {\n  margin-left: 5px;\n  vertical-align: middle; }\n\n.speech-bubble {\n  position: relative;\n  padding: 10px;\n  background: rgba(0, 0, 0, 0.04);\n  border-radius: 5px; }\n\n.speech-bubble:after {\n  content: '';\n  position: absolute;\n  top: 100%;\n  right: 30px;\n  border: 13px solid transparent;\n  border-top-color: rgba(0, 0, 0, 0.04); }\n\n.learn-bar > .learn {\n  position: absolute;\n  width: 272px;\n  top: 8px;\n  left: -300px;\n  padding: 10px;\n  border-radius: 5px;\n  background-color: rgba(255, 255, 255, 0.6);\n  transition-property: left;\n  transition-duration: 500ms; }\n\n@media (min-width: 899px) {\n  .learn-bar {\n    width: auto;\n    padding-left: 300px; }\n  .learn-bar > .learn {\n    left: 8px; } }\n\na {\n  background-color: orange;\n  color: blue; }\n", "",{"version":3,"sources":["base.scss","C:/Users/zoghadya/Documents/My_Apps/DevTools-todomvc/scss/base.scss"],"names":[],"mappings":"AAAA,gBAAgB;ACAhB;EACC,cAAc;EACd,SAAS;EACT,8BAA8B;EAC9B,iCAAiC,EAAA;;AAGlC;EACC,mBAAmB;EACnB,qBAAqB;EACrB,cAAc,EAAA;;AAGf;EACC,0BAA0B;EAC1B,cAAc,EAAA;;AAGf;;;EAGC,cAAc;EACd,gBAAgB;EAChB,gBAAgB;EAChB,WAAW,EAAA;;AAGZ;EACC,eAAe,EAAA;;AAGhB;EACC,eAAe,EAAA;;AAGhB;EACC,gBAAgB;EAChB,eAAe,EAAA;;AAGhB;EACC,UAAU;EACV,qBAAqB,EAAA;;AAGtB;EACC,iBAAiB,EAAA;;AAGlB;EACC,eAAe;EACf,gBAAgB;EAChB,gBAAgB;EAChB,aAAa;EACb,gBAAgB,EAAA;;AAGjB;EACC,aAAa,EAAA;;AAGd;EACC,YAAY;EACZ,qBAAqB,EAAA;;AAGtB;EACC,kBAAkB,EAAA;;AAGnB;EACC,YAAS;EACT,eAAe;EACf,YAAY;EACZ,kBAAkB;EAClB,UAAU;EACV,SAAS,EAAA;;AAGV;EACC,YAAS;EACT,eAAe;EACf,YAAY;EACZ,kBAAkB;EAClB,aAAa;EACb,UAAU,EAAA;;AAGX;EACC,kBAAkB;EAClB,aAAa;EACb,QAAQ,EAAA;;AAGT;EACC,kBAAkB,EAAA;;AAGnB;EACC,gBAAgB;EAChB,sBAAsB,EAAA;;AAGvB;EACC,kBAAkB;EAClB,aAAa;EACb,+BAA8B;EAC9B,kBAAkB,EAAA;;AAGnB;EACC,WAAW;EACX,kBAAkB;EAClB,SAAS;EACT,WAAW;EACX,8BAA8B;EAC9B,qCAAoC,EAAA;;AAGrC;EACC,kBAAkB;EAClB,YAAY;EACZ,QAAQ;EACR,YAAY;EACZ,aAAa;EACb,kBAAkB;EAClB,0CAAyC;EACzC,yBAAyB;EACzB,0BAA0B,EAAA;;AAG3B;EACC;IACC,WAAW;IACX,mBAAmB,EAAA;EAGpB;IACC,SAAS,EAAA,EACT;;AAGF;EACC,wBAAwB;EACxB,WAAW,EAAA","file":"base.scss","sourcesContent":["@charset \"UTF-8\";\nhr {\n  margin: 20px 0;\n  border: 0;\n  border-top: 1px dashed #c5c5c5;\n  border-bottom: 1px dashed #f7f7f7; }\n\n.learn a {\n  font-weight: normal;\n  text-decoration: none;\n  color: #b83f45; }\n\n.learn a:hover {\n  text-decoration: underline;\n  color: #787e7e; }\n\n.learn h3,\n.learn h4,\n.learn h5 {\n  margin: 10px 0;\n  font-weight: 500;\n  line-height: 1.2;\n  color: #000; }\n\n.learn h3 {\n  font-size: 24px; }\n\n.learn h4 {\n  font-size: 18px; }\n\n.learn h5 {\n  margin-bottom: 0;\n  font-size: 14px; }\n\n.learn ul {\n  padding: 0;\n  margin: 0 0 30px 25px; }\n\n.learn li {\n  line-height: 20px; }\n\n.learn p {\n  font-size: 15px;\n  font-weight: 300;\n  line-height: 1.3;\n  margin-top: 0;\n  margin-bottom: 0; }\n\n#issue-count {\n  display: none; }\n\n.quote {\n  border: none;\n  margin: 20px 0 60px 0; }\n\n.quote p {\n  font-style: italic; }\n\n.quote p:before {\n  content: '“';\n  font-size: 50px;\n  opacity: .15;\n  position: absolute;\n  top: -20px;\n  left: 3px; }\n\n.quote p:after {\n  content: '”';\n  font-size: 50px;\n  opacity: .15;\n  position: absolute;\n  bottom: -42px;\n  right: 3px; }\n\n.quote footer {\n  position: absolute;\n  bottom: -40px;\n  right: 0; }\n\n.quote footer img {\n  border-radius: 3px; }\n\n.quote footer a {\n  margin-left: 5px;\n  vertical-align: middle; }\n\n.speech-bubble {\n  position: relative;\n  padding: 10px;\n  background: rgba(0, 0, 0, 0.04);\n  border-radius: 5px; }\n\n.speech-bubble:after {\n  content: '';\n  position: absolute;\n  top: 100%;\n  right: 30px;\n  border: 13px solid transparent;\n  border-top-color: rgba(0, 0, 0, 0.04); }\n\n.learn-bar > .learn {\n  position: absolute;\n  width: 272px;\n  top: 8px;\n  left: -300px;\n  padding: 10px;\n  border-radius: 5px;\n  background-color: rgba(255, 255, 255, 0.6);\n  transition-property: left;\n  transition-duration: 500ms; }\n\n@media (min-width: 899px) {\n  .learn-bar {\n    width: auto;\n    padding-left: 300px; }\n  .learn-bar > .learn {\n    left: 8px; } }\n\na {\n  background-color: orange;\n  color: blue; }\n","hr {\n\tmargin: 20px 0;\n\tborder: 0;\n\tborder-top: 1px dashed #c5c5c5;\n\tborder-bottom: 1px dashed #f7f7f7;\n}\n\n.learn a {\n\tfont-weight: normal;\n\ttext-decoration: none;\n\tcolor: #b83f45;\n}\n\n.learn a:hover {\n\ttext-decoration: underline;\n\tcolor: #787e7e;\n}\n\n.learn h3,\n.learn h4,\n.learn h5 {\n\tmargin: 10px 0;\n\tfont-weight: 500;\n\tline-height: 1.2;\n\tcolor: #000;\n}\n\n.learn h3 {\n\tfont-size: 24px;\n}\n\n.learn h4 {\n\tfont-size: 18px;\n}\n\n.learn h5 {\n\tmargin-bottom: 0;\n\tfont-size: 14px;\n}\n\n.learn ul {\n\tpadding: 0;\n\tmargin: 0 0 30px 25px;\n}\n\n.learn li {\n\tline-height: 20px;\n}\n\n.learn p {\n\tfont-size: 15px;\n\tfont-weight: 300;\n\tline-height: 1.3;\n\tmargin-top: 0;\n\tmargin-bottom: 0;\n}\n\n#issue-count {\n\tdisplay: none;\n}\n\n.quote {\n\tborder: none;\n\tmargin: 20px 0 60px 0;\n}\n\n.quote p {\n\tfont-style: italic;\n}\n\n.quote p:before {\n\tcontent: '“';\n\tfont-size: 50px;\n\topacity: .15;\n\tposition: absolute;\n\ttop: -20px;\n\tleft: 3px;\n}\n\n.quote p:after {\n\tcontent: '”';\n\tfont-size: 50px;\n\topacity: .15;\n\tposition: absolute;\n\tbottom: -42px;\n\tright: 3px;\n}\n\n.quote footer {\n\tposition: absolute;\n\tbottom: -40px;\n\tright: 0;\n}\n\n.quote footer img {\n\tborder-radius: 3px;\n}\n\n.quote footer a {\n\tmargin-left: 5px;\n\tvertical-align: middle;\n}\n\n.speech-bubble {\n\tposition: relative;\n\tpadding: 10px;\n\tbackground: rgba(0, 0, 0, .04);\n\tborder-radius: 5px;\n}\n\n.speech-bubble:after {\n\tcontent: '';\n\tposition: absolute;\n\ttop: 100%;\n\tright: 30px;\n\tborder: 13px solid transparent;\n\tborder-top-color: rgba(0, 0, 0, .04);\n}\n\n.learn-bar > .learn {\n\tposition: absolute;\n\twidth: 272px;\n\ttop: 8px;\n\tleft: -300px;\n\tpadding: 10px;\n\tborder-radius: 5px;\n\tbackground-color: rgba(255, 255, 255, .6);\n\ttransition-property: left;\n\ttransition-duration: 500ms;\n}\n\n@media (min-width: 899px) {\n\t.learn-bar {\n\t\twidth: auto;\n\t\tpadding-left: 300px;\n\t}\n\n\t.learn-bar > .learn {\n\t\tleft: 8px;\n\t}\n}\n\na {\n\tbackground-color: orange;\n\tcolor: blue;\n}"]}]);
+exports.push([module.i, "@charset \"UTF-8\";\nhr {\n  margin: 20px 0;\n  border: 0;\n  border-top: 1px dashed #c5c5c5;\n  border-bottom: 1px dashed #f7f7f7; }\n\n.learn a {\n  font-weight: normal;\n  text-decoration: none;\n  color: #b83f45; }\n\n.learn a:hover {\n  text-decoration: underline;\n  color: #787e7e; }\n\n.learn h3,\n.learn h4,\n.learn h5 {\n  margin: 10px 0;\n  font-weight: 500;\n  line-height: 1.2;\n  color: #000; }\n\n.learn h3 {\n  font-size: 24px; }\n\n.learn h4 {\n  font-size: 18px; }\n\n.learn h5 {\n  margin-bottom: 0;\n  font-size: 14px; }\n\n.learn ul {\n  padding: 0;\n  margin: 0 0 30px 25px; }\n\n.learn li {\n  line-height: 20px; }\n\n.learn p {\n  font-size: 15px;\n  font-weight: 300;\n  line-height: 1.3;\n  margin-top: 0;\n  margin-bottom: 0; }\n\n#issue-count {\n  display: none; }\n\n.quote {\n  border: none;\n  margin: 20px 0 60px 0; }\n\n.quote p {\n  font-style: italic; }\n\n.quote p:before {\n  content: '“';\n  font-size: 50px;\n  opacity: .15;\n  position: absolute;\n  top: -20px;\n  left: 3px; }\n\n.quote p:after {\n  content: '”';\n  font-size: 50px;\n  opacity: .15;\n  position: absolute;\n  bottom: -42px;\n  right: 3px; }\n\n.quote footer {\n  position: absolute;\n  bottom: -40px;\n  right: 0; }\n\n.quote footer img {\n  border-radius: 3px; }\n\n.quote footer a {\n  margin-left: 5px;\n  vertical-align: middle; }\n\n.speech-bubble {\n  position: relative;\n  padding: 10px;\n  background: rgba(0, 0, 0, 0.04);\n  border-radius: 5px; }\n\n.speech-bubble:after {\n  content: '';\n  position: absolute;\n  top: 100%;\n  right: 30px;\n  border: 13px solid transparent;\n  border-top-color: rgba(0, 0, 0, 0.04); }\n\n.learn-bar > .learn {\n  position: absolute;\n  width: 272px;\n  top: 8px;\n  left: -300px;\n  padding: 10px;\n  border-radius: 5px;\n  background-color: rgba(255, 255, 255, 0.6);\n  transition-property: left;\n  transition-duration: 500ms; }\n\n@media (min-width: 899px) {\n  .learn-bar {\n    width: auto;\n    padding-left: 300px; }\n  .learn-bar > .learn {\n    left: 8px; } }\n", "",{"version":3,"sources":["base.scss","C:/Users/zoghadya/Documents/My_Apps/DevTools-todomvc/scss/base.scss"],"names":[],"mappings":"AAAA,gBAAgB;ACAhB;EACC,cAAc;EACd,SAAS;EACT,8BAA8B;EAC9B,iCAAiC,EAAA;;AAGlC;EACC,mBAAmB;EACnB,qBAAqB;EACrB,cAAc,EAAA;;AAGf;EACC,0BAA0B;EAC1B,cAAc,EAAA;;AAGf;;;EAGC,cAAc;EACd,gBAAgB;EAChB,gBAAgB;EAChB,WAAW,EAAA;;AAGZ;EACC,eAAe,EAAA;;AAGhB;EACC,eAAe,EAAA;;AAGhB;EACC,gBAAgB;EAChB,eAAe,EAAA;;AAGhB;EACC,UAAU;EACV,qBAAqB,EAAA;;AAGtB;EACC,iBAAiB,EAAA;;AAGlB;EACC,eAAe;EACf,gBAAgB;EAChB,gBAAgB;EAChB,aAAa;EACb,gBAAgB,EAAA;;AAGjB;EACC,aAAa,EAAA;;AAGd;EACC,YAAY;EACZ,qBAAqB,EAAA;;AAGtB;EACC,kBAAkB,EAAA;;AAGnB;EACC,YAAS;EACT,eAAe;EACf,YAAY;EACZ,kBAAkB;EAClB,UAAU;EACV,SAAS,EAAA;;AAGV;EACC,YAAS;EACT,eAAe;EACf,YAAY;EACZ,kBAAkB;EAClB,aAAa;EACb,UAAU,EAAA;;AAGX;EACC,kBAAkB;EAClB,aAAa;EACb,QAAQ,EAAA;;AAGT;EACC,kBAAkB,EAAA;;AAGnB;EACC,gBAAgB;EAChB,sBAAsB,EAAA;;AAGvB;EACC,kBAAkB;EAClB,aAAa;EACb,+BAA8B;EAC9B,kBAAkB,EAAA;;AAGnB;EACC,WAAW;EACX,kBAAkB;EAClB,SAAS;EACT,WAAW;EACX,8BAA8B;EAC9B,qCAAoC,EAAA;;AAGrC;EACC,kBAAkB;EAClB,YAAY;EACZ,QAAQ;EACR,YAAY;EACZ,aAAa;EACb,kBAAkB;EAClB,0CAAyC;EACzC,yBAAyB;EACzB,0BAA0B,EAAA;;AAG3B;EACC;IACC,WAAW;IACX,mBAAmB,EAAA;EAGpB;IACC,SAAS,EAAA,EACT","file":"base.scss","sourcesContent":["@charset \"UTF-8\";\nhr {\n  margin: 20px 0;\n  border: 0;\n  border-top: 1px dashed #c5c5c5;\n  border-bottom: 1px dashed #f7f7f7; }\n\n.learn a {\n  font-weight: normal;\n  text-decoration: none;\n  color: #b83f45; }\n\n.learn a:hover {\n  text-decoration: underline;\n  color: #787e7e; }\n\n.learn h3,\n.learn h4,\n.learn h5 {\n  margin: 10px 0;\n  font-weight: 500;\n  line-height: 1.2;\n  color: #000; }\n\n.learn h3 {\n  font-size: 24px; }\n\n.learn h4 {\n  font-size: 18px; }\n\n.learn h5 {\n  margin-bottom: 0;\n  font-size: 14px; }\n\n.learn ul {\n  padding: 0;\n  margin: 0 0 30px 25px; }\n\n.learn li {\n  line-height: 20px; }\n\n.learn p {\n  font-size: 15px;\n  font-weight: 300;\n  line-height: 1.3;\n  margin-top: 0;\n  margin-bottom: 0; }\n\n#issue-count {\n  display: none; }\n\n.quote {\n  border: none;\n  margin: 20px 0 60px 0; }\n\n.quote p {\n  font-style: italic; }\n\n.quote p:before {\n  content: '“';\n  font-size: 50px;\n  opacity: .15;\n  position: absolute;\n  top: -20px;\n  left: 3px; }\n\n.quote p:after {\n  content: '”';\n  font-size: 50px;\n  opacity: .15;\n  position: absolute;\n  bottom: -42px;\n  right: 3px; }\n\n.quote footer {\n  position: absolute;\n  bottom: -40px;\n  right: 0; }\n\n.quote footer img {\n  border-radius: 3px; }\n\n.quote footer a {\n  margin-left: 5px;\n  vertical-align: middle; }\n\n.speech-bubble {\n  position: relative;\n  padding: 10px;\n  background: rgba(0, 0, 0, 0.04);\n  border-radius: 5px; }\n\n.speech-bubble:after {\n  content: '';\n  position: absolute;\n  top: 100%;\n  right: 30px;\n  border: 13px solid transparent;\n  border-top-color: rgba(0, 0, 0, 0.04); }\n\n.learn-bar > .learn {\n  position: absolute;\n  width: 272px;\n  top: 8px;\n  left: -300px;\n  padding: 10px;\n  border-radius: 5px;\n  background-color: rgba(255, 255, 255, 0.6);\n  transition-property: left;\n  transition-duration: 500ms; }\n\n@media (min-width: 899px) {\n  .learn-bar {\n    width: auto;\n    padding-left: 300px; }\n  .learn-bar > .learn {\n    left: 8px; } }\n","hr {\r\n\tmargin: 20px 0;\r\n\tborder: 0;\r\n\tborder-top: 1px dashed #c5c5c5;\r\n\tborder-bottom: 1px dashed #f7f7f7;\r\n}\r\n\r\n.learn a {\r\n\tfont-weight: normal;\r\n\ttext-decoration: none;\r\n\tcolor: #b83f45;\r\n}\r\n\r\n.learn a:hover {\r\n\ttext-decoration: underline;\r\n\tcolor: #787e7e;\r\n}\r\n\r\n.learn h3,\r\n.learn h4,\r\n.learn h5 {\r\n\tmargin: 10px 0;\r\n\tfont-weight: 500;\r\n\tline-height: 1.2;\r\n\tcolor: #000;\r\n}\r\n\r\n.learn h3 {\r\n\tfont-size: 24px;\r\n}\r\n\r\n.learn h4 {\r\n\tfont-size: 18px;\r\n}\r\n\r\n.learn h5 {\r\n\tmargin-bottom: 0;\r\n\tfont-size: 14px;\r\n}\r\n\r\n.learn ul {\r\n\tpadding: 0;\r\n\tmargin: 0 0 30px 25px;\r\n}\r\n\r\n.learn li {\r\n\tline-height: 20px;\r\n}\r\n\r\n.learn p {\r\n\tfont-size: 15px;\r\n\tfont-weight: 300;\r\n\tline-height: 1.3;\r\n\tmargin-top: 0;\r\n\tmargin-bottom: 0;\r\n}\r\n\r\n#issue-count {\r\n\tdisplay: none;\r\n}\r\n\r\n.quote {\r\n\tborder: none;\r\n\tmargin: 20px 0 60px 0;\r\n}\r\n\r\n.quote p {\r\n\tfont-style: italic;\r\n}\r\n\r\n.quote p:before {\r\n\tcontent: '“';\r\n\tfont-size: 50px;\r\n\topacity: .15;\r\n\tposition: absolute;\r\n\ttop: -20px;\r\n\tleft: 3px;\r\n}\r\n\r\n.quote p:after {\r\n\tcontent: '”';\r\n\tfont-size: 50px;\r\n\topacity: .15;\r\n\tposition: absolute;\r\n\tbottom: -42px;\r\n\tright: 3px;\r\n}\r\n\r\n.quote footer {\r\n\tposition: absolute;\r\n\tbottom: -40px;\r\n\tright: 0;\r\n}\r\n\r\n.quote footer img {\r\n\tborder-radius: 3px;\r\n}\r\n\r\n.quote footer a {\r\n\tmargin-left: 5px;\r\n\tvertical-align: middle;\r\n}\r\n\r\n.speech-bubble {\r\n\tposition: relative;\r\n\tpadding: 10px;\r\n\tbackground: rgba(0, 0, 0, .04);\r\n\tborder-radius: 5px;\r\n}\r\n\r\n.speech-bubble:after {\r\n\tcontent: '';\r\n\tposition: absolute;\r\n\ttop: 100%;\r\n\tright: 30px;\r\n\tborder: 13px solid transparent;\r\n\tborder-top-color: rgba(0, 0, 0, .04);\r\n}\r\n\r\n.learn-bar > .learn {\r\n\tposition: absolute;\r\n\twidth: 272px;\r\n\ttop: 8px;\r\n\tleft: -300px;\r\n\tpadding: 10px;\r\n\tborder-radius: 5px;\r\n\tbackground-color: rgba(255, 255, 255, .6);\r\n\ttransition-property: left;\r\n\ttransition-duration: 500ms;\r\n}\r\n\r\n@media (min-width: 899px) {\r\n\t.learn-bar {\r\n\t\twidth: auto;\r\n\t\tpadding-left: 300px;\r\n\t}\r\n\r\n\t.learn-bar > .learn {\r\n\t\tleft: 8px;\r\n\t}\r\n}\r\n"]}]);
 
 
 /***/ }),
 
 /***/ "../node_modules/css-loader/dist/cjs.js?!../node_modules/sass-loader/lib/loader.js?!../scss/index.scss":
 /*!*******************************************************************************************************************************!*\
-  !*** ../node_modules/css-loader/dist/cjs.js??ref--4-1!../node_modules/sass-loader/lib/loader.js??ref--4-2!../scss/index.scss ***!
+  !*** ../node_modules/css-loader/dist/cjs.js??ref--5-1!../node_modules/sass-loader/lib/loader.js??ref--5-2!../scss/index.scss ***!
   \*******************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -29778,7 +29778,7 @@ module.exports = function (list, options) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--4-1!../node_modules/sass-loader/lib/loader.js??ref--4-2!./base.scss */ "../node_modules/css-loader/dist/cjs.js?!../node_modules/sass-loader/lib/loader.js?!../scss/base.scss");
+var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-1!../node_modules/sass-loader/lib/loader.js??ref--5-2!./base.scss */ "../node_modules/css-loader/dist/cjs.js?!../node_modules/sass-loader/lib/loader.js?!../scss/base.scss");
 
 if (typeof content === 'string') {
   content = [[module.i, content, '']];
@@ -29805,7 +29805,7 @@ if (content.locals) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--4-1!../node_modules/sass-loader/lib/loader.js??ref--4-2!./index.scss */ "../node_modules/css-loader/dist/cjs.js?!../node_modules/sass-loader/lib/loader.js?!../scss/index.scss");
+var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-1!../node_modules/sass-loader/lib/loader.js??ref--5-2!./index.scss */ "../node_modules/css-loader/dist/cjs.js?!../node_modules/sass-loader/lib/loader.js?!../scss/index.scss");
 
 if (typeof content === 'string') {
   content = [[module.i, content, '']];
@@ -29825,10 +29825,10 @@ if (content.locals) {
 
 /***/ }),
 
-/***/ "./app.js":
-/*!****************!*\
-  !*** ./app.js ***!
-  \****************/
+/***/ "./app.tsx":
+/*!*****************!*\
+  !*** ./app.tsx ***!
+  \*****************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -29973,7 +29973,7 @@ const ENTER_KEY = 13;
 exports.ENTER_KEY = ENTER_KEY;
 const ESCAPE_KEY = 27;
 exports.ESCAPE_KEY = ESCAPE_KEY;
-
+//# sourceMappingURL=constants.js.map
 
 /***/ }),
 
@@ -30024,7 +30024,7 @@ class TodoFooter extends React.Component {
     }
 }
 exports.TodoFooter = TodoFooter;
-
+//# sourceMappingURL=footer.js.map
 
 /***/ }),
 
@@ -30119,7 +30119,7 @@ class TodoItem extends React.Component {
     }
 }
 exports.TodoItem = TodoItem;
-
+//# sourceMappingURL=todoItem.js.map
 
 /***/ }),
 
@@ -30203,7 +30203,7 @@ class TodoModel {
     }
 }
 exports.TodoModel = TodoModel;
-
+//# sourceMappingURL=todoModel.js.map
 
 /***/ }),
 
@@ -30256,18 +30256,18 @@ class Utils {
     }
 }
 exports.Utils = Utils;
-
+//# sourceMappingURL=utils.js.map
 
 /***/ }),
 
 /***/ 0:
-/*!***************************************************************!*\
-  !*** multi ./app.js ./../scss/base.scss ./../scss/index.scss ***!
-  \***************************************************************/
+/*!****************************************************************!*\
+  !*** multi ./app.tsx ./../scss/base.scss ./../scss/index.scss ***!
+  \****************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ./app.js */"./app.js");
+__webpack_require__(/*! ./app.tsx */"./app.tsx");
 __webpack_require__(/*! ./../scss/base.scss */"../scss/base.scss");
 module.exports = __webpack_require__(/*! ./../scss/index.scss */"../scss/index.scss");
 

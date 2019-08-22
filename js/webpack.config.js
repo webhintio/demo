@@ -4,13 +4,18 @@ module.exports = {
   context: path.resolve(__dirname, ''),
   mode: process.env.NODE_ENV === 'production' ? 'production' : 'development',
   devtool: 'source-map',
-  entry: ['./app.js', './../scss/base.scss', './../scss/index.scss'],
+  entry: ['./app.tsx', './../scss/base.scss', './../scss/index.scss'],
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, '')
   },
   module: {
 		rules: [
+      {
+        test: /\.tsx?$/,
+        use: 'ts-loader',
+        exclude: /node_modules/
+      },
 			{
 				test: /\.scss$/,
         use: [

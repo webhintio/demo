@@ -1,9 +1,10 @@
 {
   "private": true,
   "scripts": {
-    "build": "tsc -p ./js/ && webpack --watch --config ./js/webpack.config.js",
+    "build": "webpack --watch --config ./js/webpack.config.js",
     "start": "node ./serve.js",
-    "test": "jest"
+    "test-puppeteer": "jest",
+    "test-webdriver": "python ./tests/webdriver.test.py"
   },
   "dependencies": {
     "@types/classnames": "^2.2.6",
@@ -28,6 +29,7 @@
     "puppeteer": "^1.19.0",
     "sass-loader": "^7.2.0",
     "style-loader": "^1.0.0",
+    "ts-loader": "^6.0.4",
     "tslib": "^1.10.0",
     "typescript": "^3.5.3",
     "webpack": "^4.39.2",
