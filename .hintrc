@@ -2,5 +2,5 @@
     "extends": [
         "development"
     ],
-    "browserslist": ["defaults, not ie"]
+    "browserslist": ["defaults"]
 }
